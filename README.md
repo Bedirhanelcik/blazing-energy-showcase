@@ -2,32 +2,47 @@
 
 ![Blazing Energy](./screenshot.png)
 
-An experimental, cinematic 3D energy drink landing page built with JavaScript and Three.js. The full
-product range is rendered in real time in the browser and presented as an interactive display you can
-drag, scroll and step through. It is a personal concept project, not a real brand or product.
+An experimental, cinematic 3D product experience built with JavaScript and Three.js.
+
+The project explores real-time WebGL product presentation, interactive motion, lighting, transitions and
+spatial composition within a browser-based environment. The complete product range is rendered in real
+time rather than relying on pre-rendered product imagery.
+
+This is an independent personal concept project and does not represent a real brand or commercial product.
 
 ## Live Demo
 
-**[blazing-energy.vercel.app](https://blazing-energy.vercel.app/)**
+**[View the live experience](https://blazing-energy.vercel.app/)**
 
 ## About
 
-- Cinematic 3D product presentation — real-time WebGL, no pre-rendered product images
-- Interactive product experience: drag, scroll, arrow keys and click-to-focus
-- Scroll-driven transitions between products, with a commit threshold so small gestures spring back
-- A studio light rig that re-colours itself to the active flavour
-- Custom visual effects: layered atmospheric background, depth-sorted particles, a close-up product viewer
-- Responsive layout, keyboard support and `prefers-reduced-motion` support
+Blazing Energy was developed as an exploration of interactive 3D web experiences and cinematic product
+presentation.
+
+The experience combines real-time WebGL rendering with custom interaction and motion systems to create a
+product showcase that responds directly to user input.
+
+- Cinematic 3D product presentation using real-time WebGL
+- Interactive product navigation through drag, scroll, keyboard and click interactions
+- Scroll-driven transitions with a commit threshold and spring-based motion
+- Dynamic studio lighting that adapts to the active flavour
+- Layered atmospheric backgrounds and depth-sorted particles
+- Close-up product presentation and detail interactions
+- Responsive layout with keyboard accessibility
+- `prefers-reduced-motion` support
 
 ## Inspiration
 
-Concept and visual direction were inspired by the
-[Blazing Energy project by Yildiz Dikme](https://blazing-energy.netlify.app/)
-([@YildizDikme](https://github.com/YildizDikme)). I rebuilt and adapted the idea into my own
-implementation, visual system, interactions and presentation.
+The concept grew from two sources of inspiration: the original Blazing Energy website and a YouTube video
+by [Yıldız Dikme](https://github.com/YildizDikme) that first introduced me to the project.
 
-This is an independent reinterpretation. The original creator was not involved in this repository and
-it is not a collaboration.
+The original website influenced the visual direction, while Yıldız's presentation was what initially
+caught my attention and led me to explore the concept further.
+
+From these references, I developed my own interpretation with a different visual system, interaction model,
+motion design and implementation.
+
+This repository is an independent project and is not affiliated with or a collaboration with the original creators.
 
 ## Tech
 
@@ -39,37 +54,48 @@ it is not a collaboration.
 
 ## Representative Source
 
-The complete implementation is kept private. This repository includes a small representative source
-example to demonstrate the JavaScript/Three.js approach without exposing the full project source.
+The complete implementation remains private. This public repository includes a deliberately simplified
+representative source example to demonstrate the underlying JavaScript and Three.js approach without
+exposing the complete production implementation.
 
-**[`src/example.js`](./src/example.js)** — a simplified sketch of the scene setup, studio light rig,
-carousel layout and the spring-damped scroll interaction.
+**[`src/example.js`](./src/example.js)** demonstrates:
 
-It is intentionally incomplete. The product model, printed artwork, HDR environment, custom shaders,
-per-material lighting channels, particle system and page transitions are not included.
+- Three.js scene and camera setup
+- Real-time renderer configuration
+- Studio lighting
+- Product carousel positioning
+- Spring-damped scroll interaction
+- Basic interaction handling
+
+The example is intentionally incomplete. The production implementation contains additional systems for
+product assets, printed artwork, HDR environments, custom shaders, per-material lighting channels,
+particles, transitions and other visual effects that are not included in this repository.
 
 ## Credits
 
-- Concept inspiration — [Blazing Energy by Yildiz Dikme](https://blazing-energy.netlify.app/)
-- Can model — "Energy Drink Game Ready Model" by **dwalsh**, licensed CC BY 4.0
+- Original website — [Blazing Energy](https://blazing-energy.netlify.app/)
+- Video inspiration — [Yıldız Dikme](https://github.com/YildizDikme)
+- Can model — "Energy Drink Game Ready Model" by **dwalsh**, licensed under CC BY 4.0
 - Noise transition and HDR environment — derived from the **Codrops** `codrops-noise-transition` demo
 - Classic Perlin 4D noise (GLSL) — **Stefan Gustavson**
-- [three.js](https://github.com/mrdoob/three.js) (MIT) and the Archivo / Geist Mono webfonts
-  (SIL OFL 1.1), both loaded from a CDN at runtime
+- [three.js](https://github.com/mrdoob/three.js) — MIT License
+- Archivo / Geist Mono webfonts — SIL OFL 1.1
 
-The third-party assets above are part of the private implementation and are **not** distributed in this
-repository. The licence terms of the Codrops-derived material are not recorded in the original source
-and have not been verified.
+The third-party assets listed above belong to the private implementation and are not distributed in this
+public repository. The licence terms of the Codrops-derived material were not recorded in the original
+source and have not been independently verified.
 
 ## Contact
 
-**Bedirhan Elçik** — [github.com/BedirhanElcik](https://github.com/BedirhanElcik) ·
-[bedrhanelck@outlook.com](mailto:bedrhanelck@outlook.com)
+**Bedirhan Elçik**
+
+[GitHub](https://github.com/BedirhanElcik) ·
+[Email](mailto:bedrhanelck@outlook.com)
 
 ## License
 
-The code in this repository — `src/example.js` — is released under the [MIT License](LICENSE).
+The code published in this repository — `src/example.js` — is released under the [MIT License](LICENSE).
 
-The licence covers only the original code published here. It does not extend to the third-party models,
-artwork, environment maps or shader code listed under [Credits](#credits), which remain subject to their
-own terms and are not included in this repository.
+This licence applies only to the original code included in this repository. It does not extend to any
+third-party models, artwork, environment maps or shader material referenced under [Credits](#credits).
+Those materials remain subject to their respective licences and terms.
