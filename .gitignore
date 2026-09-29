@@ -1,0 +1,35 @@
+# Dependencies
+node_modules/
+
+# Build output (this project has no build step today; kept so a future one cannot leak artefacts)
+dist/
+build/
+.vite/
+.cache/
+
+# Environment — never commit real values. See .env.example if one is ever added.
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Scratch
+*.tmp
+*.local
