@@ -91,6 +91,7 @@ source and have not been independently verified.
 
 [GitHub](https://github.com/BedirhanElcik) ·
 [Email](mailto:bedrhanelck@outlook.com)
+[Linkedin](https://www.linkedin.com/in/bedirhanelcik/).
 
 ## License
 
